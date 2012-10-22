@@ -17,7 +17,7 @@ public class SortingAlgorithms
 	    while (indxL >= 0 && list[indxL] > currVal)
 	    {
 		list[indxL + 1] = list[indxL];
-		indxL = indxL - 1;
+		indxL -= 1;
 	    }
 	    list[indxL + 1] = currVal;
 	}
